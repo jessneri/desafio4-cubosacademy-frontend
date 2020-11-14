@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  background: #ffffff;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  min-width: 405px;
+  height: auto;
+}
+
+img {
+  width: 135px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inputs {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #374952;
+}
+
+label span {
+  padding-left: 15px;
+  margin-bottom: 5px;
+  color: #374952;
+  font-weight: bold;
+}
+
+label:first-child {
+  margin-bottom: 40px;
+}
+
+label input {
+  width: 260px;
+  border: none;
+  padding: 15px;
+}
+
+.senha input {
+  letter-spacing: 0.2rem;
+}
+
+::-webkit-input-placeholder {
+  color: #a5a5a5;
+}
+
+::-moz-placeholder {
+  color: #a5a5a5;
+}
+
+:-ms-input-placeholder {
+  color: #a5a5a5;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.inputs p {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+}
+
+button {
+  background: rgba(218, 1, 117, 0.35);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 166px;
+  height: 39px;
+  margin-bottom: 70px;
+}
+
+.principal span {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 32px;
+}
+
+.principal span > a {
+  color: #e83b86;
+}
