@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 /* páginas importadas */
 import Login from "./Login/Login";
+import cadastroUser from "./CadastroUser/cadastroUser";
 
 export default function Routes() {
   return (
@@ -10,6 +11,7 @@ export default function Routes() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact={true} component={Login} />
+          <Route path="/cadastro" component={cadastroUser} />
         </Switch>
       </BrowserRouter>
     </div>

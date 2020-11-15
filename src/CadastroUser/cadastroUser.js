@@ -1,16 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./cubosacademy.svg";
-import "./Login.css";
 
-export default function Login() {
-  const [mostrarSenha, setMostrarSenha] = React.useState("password");
+import "./cadastroUser.css";
 
+export default function cadastroUser() {
   return (
     <div className="principal">
       <div className="login">
         <img src={logo} alt="cubosacademy"></img>
         <div className="inputs">
+          <label>
+            <span>Nome</span>
+            <input type="text"></input>
+          </label>
           <label>
             <span>E-mail</span>
             <input type="email" placeholder="exemplo@gmail.com"></input>
@@ -19,13 +22,9 @@ export default function Login() {
             <span>Senha</span>
             <input type="password"></input>
           </label>
-          <p>Esqueci minha senha</p>
         </div>
-        <button>Entrar</button>
+        <button>Criar conta</button>
       </div>
-      <span>
-        Não tem uma conta? <Link to="/cadastro">Cadastre-se!</Link>
-      </span>
     </div>
   );
 }
