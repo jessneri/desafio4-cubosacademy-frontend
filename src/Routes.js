@@ -9,7 +9,7 @@ export default function Routes() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Login} />
+          <Route path="/" exact={true} component={Login} />
         </Switch>
       </BrowserRouter>
     </div>
