@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./cubosacademy.svg";
+import logo from "../pictures/cubosacademy.svg";
 
 import "./cadastroUser.css";
 
@@ -23,7 +23,9 @@ export default function cadastroUser() {
             <input type="password"></input>
           </label>
         </div>
-        <button>Criar conta</button>
+        <button Link to="/home" className="botaoCriarConta">
+          Criar conta
+        </button>
       </div>
     </div>
   );
