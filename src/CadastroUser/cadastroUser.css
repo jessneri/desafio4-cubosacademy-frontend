@@ -6,7 +6,7 @@ body {
   background: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
-.principal {
+.principal-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,11 +36,12 @@ img {
   margin-right: 70px;
 }
 
-label {
+.principal-cadastro label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-bottom: 1px solid #374952;
+  margin-top: 30px;
 }
 
 label span {

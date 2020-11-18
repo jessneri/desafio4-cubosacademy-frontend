@@ -6,7 +6,7 @@ body {
   background: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
-.principal {
+.principal-login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,12 +100,12 @@ button {
   margin-bottom: 70px;
 }
 
-.principal span {
+.principal-login span {
   font-size: 14px;
   line-height: 20px;
   margin-top: 32px;
 }
 
-.principal span > a {
+.principal-login span > a {
   color: #e83b86;
 }

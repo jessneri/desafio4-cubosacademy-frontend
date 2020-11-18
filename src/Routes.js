@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from "./Login/Login";
 import cadastroUser from "./CadastroUser/cadastroUser";
 import Home from "./Home/Home";
+import Cobrancas from "./Cobrancas/Cobrancas";
 
 export default function Routes() {
   return (
@@ -14,6 +15,7 @@ export default function Routes() {
           <Route path="/" exact={true} component={Login} />
           <Route path="/cadastro" component={cadastroUser} />
           <Route path="/home" component={Home} />
+          <Route path="/cobrancas" component={Cobrancas} />
         </Switch>
       </BrowserRouter>
     </div>

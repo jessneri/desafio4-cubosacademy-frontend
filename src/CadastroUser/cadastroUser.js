@@ -6,7 +6,7 @@ import "./cadastroUser.css";
 
 export default function cadastroUser() {
   return (
-    <div className="principal">
+    <div className="principal-cadastro">
       <div className="login">
         <img src={logo} alt="cubosacademy"></img>
         <div className="inputs">

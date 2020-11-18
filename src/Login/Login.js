@@ -7,7 +7,7 @@ export default function Login() {
   const [mostrarSenha, setMostrarSenha] = React.useState("password");
 
   return (
-    <div className="principal">
+    <div className="principal-login">
       <div className="login">
         <img src={logo} alt="cubosacademy"></img>
         <div className="inputs">

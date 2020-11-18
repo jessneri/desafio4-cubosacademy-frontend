@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.home {
+.page-cobrancas {
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.principal-home {
+.principal-cobrancas {
   width: 900px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   margin-top: 64px;
 }
 
-.principal-home .botoes {
+.principal-cobrancas .botoes {
   border-bottom: 1px solid #263238;
   width: 100%;
   display: flex;
@@ -43,7 +43,7 @@
   margin-right: 166px;
 }
 
-.principal-home .botoes > button {
+.principal-cobrancas .botoes > button {
   width: 104px;
   background: none;
   color: #263238;
@@ -51,7 +51,7 @@
   padding: 0;
   border-radius: 0;
 }
-.principal-home .botoes > button:focus {
+.principal-cobrancas .botoes > button:focus {
   border-bottom: 3px solid #263238;
   outline: none;
 }

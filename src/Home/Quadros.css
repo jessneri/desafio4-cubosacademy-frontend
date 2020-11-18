@@ -1,0 +1,77 @@
+.quadros {
+  min-width: 410px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-top: 42px;
+}
+
+.quadros .titulo {
+  height: 80px;
+  background: #374952;
+  border-radius: 16px 16px 0px 0px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadros .titulo > img {
+  width: 30px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.quadros .quadro-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.quadro-total .em-dia,
+.quadro-total .inadimplentes,
+.quadro-total .previstas,
+.quadro-total .vencidas,
+.quadro-total .pagas {
+  width: 266px;
+  height: 80px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 16px;
+}
+
+.quadro-total .em-dia {
+  border: 2px solid #4ec06e;
+  color: #4ec06e;
+}
+.quadro-total .inadimplentes {
+  border: 2px solid #ff4d4d;
+  color: #ff4d4d;
+}
+
+.quadro-total .previstas {
+  border: 2px solid #5197b5;
+  color: #5197b5;
+}
+.quadro-total .vencidas {
+  border: 2px solid #ff4d4d;
+  color: #ff4d4d;
+}
+.quadro-total .pagas {
+  border: 2px solid #4ec06e;
+  color: #4ec06e;
+}
+
+.quadro-total .qtd-em-dia,
+.quadro-total .qtd-inadimplentes,
+.quadro-total .qtd-previstas,
+.quadro-total .qtd-vencidas,
+.quadro-total .qtd-pagas {
+  font-size: 40px;
+}
