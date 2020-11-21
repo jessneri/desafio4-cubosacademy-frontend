@@ -1,5 +1,5 @@
 import React from "react";
-import btCliente from "../pictures/btCliente.svg";
+import btCliente from "../../pictures/btCliente.svg";
 
 import "./Quadros.css";
 

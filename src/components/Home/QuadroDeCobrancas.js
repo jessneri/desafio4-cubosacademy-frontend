@@ -1,5 +1,5 @@
 import React from "react";
-import btCobranca from "../pictures/btCobranca.svg";
+import btCobranca from "../../pictures/btCobranca.svg";
 
 import "./Quadros.css";
 

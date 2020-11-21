@@ -1,8 +1,8 @@
 import React from "react";
-import logoWhite from "../pictures/cubosacademy-white.svg";
-import btHome from "../pictures/btHome.svg";
-import btCobranca from "../pictures/btCobranca.svg";
-import btCliente from "../pictures/btCliente.svg";
+import logoWhite from "../../pictures/cubosacademy-white.svg";
+import btHome from "../../pictures/btHome.svg";
+import btCobranca from "../../pictures/btCobranca.svg";
+import btCliente from "../../pictures/btCliente.svg";
 
 import "./Header.css";
 

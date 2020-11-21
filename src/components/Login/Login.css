@@ -90,7 +90,7 @@ label input {
   text-decoration-line: underline;
 }
 
-button {
+.principal-login button {
   background: rgba(218, 1, 117, 0.35);
   color: white;
   border: none;
@@ -108,4 +108,26 @@ button {
 
 .principal-login span > a {
   color: #e83b86;
+}
+
+.senha div {
+  margin: 0;
+  border-bottom: 1px solid #374952;
+}
+
+.senha .showPassword {
+  width: fit-content;
+  height: fit-content;
+  background: #ffffff;
+  margin-bottom: 0;
+}
+
+.senha .showPassword > img {
+  width: 22.38px;
+  height: 18.01px;
+  margin: 0;
+}
+
+.senha {
+  border-bottom: none;
 }

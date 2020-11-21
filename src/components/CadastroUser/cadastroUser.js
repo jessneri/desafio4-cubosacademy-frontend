@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../pictures/cubosacademy.svg";
+import logo from "../../pictures/cubosacademy.svg";
 
 import "./cadastroUser.css";
 

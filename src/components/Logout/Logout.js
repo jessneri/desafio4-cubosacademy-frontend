@@ -1,6 +1,6 @@
 import React from "react";
-import deslogar from "../pictures/deslogar.svg";
-import user from "../pictures/user.png";
+import deslogar from "../../pictures/deslogar.svg";
+import user from "../../pictures/user.png";
 
 import "./Logout.css";
 

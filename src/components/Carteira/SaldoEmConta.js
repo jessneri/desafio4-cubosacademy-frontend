@@ -1,5 +1,5 @@
 import React from "react";
-import cifrao from "../pictures/cifrao.svg";
+import cifrao from "../../pictures/cifrao.svg";
 
 import "./SaldoEmConta.css";
 
