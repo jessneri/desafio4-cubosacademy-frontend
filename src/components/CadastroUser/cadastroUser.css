@@ -93,4 +93,6 @@ label input {
   width: 166px;
   height: 39px;
   margin-bottom: 70px;
+  align-self: center;
+  margin-top: 40px;
 }

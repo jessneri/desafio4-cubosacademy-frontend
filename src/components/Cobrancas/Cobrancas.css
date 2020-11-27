@@ -26,39 +26,15 @@
   width: 100%;
 }
 
-.principal-cobrancas {
-  width: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 64px;
+.principal-cobrancas table {
+  width: 960px;
+  border-collapse: collapse;
 }
 
-.principal-cobrancas .botoes {
-  border-bottom: 1px solid #263238;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-
-  margin-right: 166px;
-}
-
-.principal-cobrancas .botoes > button {
-  width: 104px;
-  background: none;
-  color: #263238;
-  margin-bottom: 0;
-  padding: 0;
-  border-radius: 0;
-}
-.principal-cobrancas .botoes > button:focus {
-  border-bottom: 3px solid #263238;
-  outline: none;
-}
-
-.quadros-info {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-start;
+.principal-cobrancas thead {
+  height: 50px;
+  padding: 6px;
+  background: #9dbbc3;
+  border-radius: 8px;
+  color: white;
 }

@@ -14,7 +14,20 @@ export default function Cobrancas() {
       <div className="corpo">
         <div className="conta">
           <SaldoEmConta />
-          <div className="principal-cobrancas"></div>
+          <div className="principal-cobrancas">
+            <table>
+              <thead>
+                <tr>
+                  <td>Clientes</td>
+                  <td>Descrição</td>
+                  <td>Valor</td>
+                  <td>Status</td>
+                  <td>Vencimento</td>
+                  <td>Boleto</td>
+                </tr>
+              </thead>
+            </table>
+          </div>
         </div>
         <Logout />
       </div>

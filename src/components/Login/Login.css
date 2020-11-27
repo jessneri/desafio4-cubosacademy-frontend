@@ -88,6 +88,7 @@ label input {
   line-height: 15px;
   text-align: right;
   text-decoration-line: underline;
+  margin-bottom: 50px;
 }
 
 .principal-login button {
@@ -98,6 +99,7 @@ label input {
   width: 166px;
   height: 39px;
   margin-bottom: 70px;
+  align-self: center;
 }
 
 .principal-login span {

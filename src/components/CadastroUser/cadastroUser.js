@@ -1,31 +1,58 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import logo from "../../pictures/cubosacademy.svg";
 
 import "./cadastroUser.css";
 
-export default function cadastroUser() {
+import { AuthContainer } from "../../hooks/auth";
+
+export default function CadastroUser() {
+  const [email, setEmail] = React.useState("");
+  const [senha, setSenha] = React.useState("");
+  const [nome, setNome] = React.useState("");
+  const [mostrarSenha, setMostrarSenha] = React.useState("password");
+
+  const { novoLogin } = AuthContainer.useContainer();
+  const history = useHistory();
   return (
     <div className="principal-cadastro">
       <div className="login">
         <img src={logo} alt="cubosacademy"></img>
-        <div className="inputs">
+        <form
+          className="inputs"
+          onSubmit={async (event) => {
+            console.log(nome);
+            event.preventDefault();
+            novoLogin(email, senha, nome);
+            history.push("/");
+          }}
+        >
           <label>
             <span>Nome</span>
-            <input type="text"></input>
+            <input
+              type="text"
+              onChange={(e) => setNome(e.target.value)}
+            ></input>
           </label>
           <label>
             <span>E-mail</span>
-            <input type="email" placeholder="exemplo@gmail.com"></input>
+            <input
+              type="email"
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="exemplo@gmail.com"
+            ></input>
           </label>
           <label className="senha">
             <span>Senha</span>
-            <input type="password"></input>
+            <input
+              type="password"
+              onChange={(e) => setSenha(e.target.value)}
+            ></input>
           </label>
-        </div>
-        <button Link to="/home" className="botaoCriarConta">
-          Criar conta
-        </button>
+          <button type="submit" className="botaoCriarConta">
+            Criar conta
+          </button>
+        </form>
       </div>
     </div>
   );

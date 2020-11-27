@@ -49,6 +49,9 @@
   color: #263238;
   margin-bottom: 0;
   padding: 0;
+  border: none;
+  width: 104px;
+  height: 39px;
   border-radius: 0;
 }
 .principal-home .botoes > button:focus {

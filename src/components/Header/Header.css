@@ -21,6 +21,7 @@ header {
   font-weight: bold;
   margin: 0;
   border: none;
+  color: white;
 }
 
 .botoes-home > button:focus {
@@ -37,4 +38,8 @@ header > button {
   background: #da0175;
   margin-top: 328px;
   width: 226px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 39px;
 }
