@@ -1,0 +1,27 @@
+.form-pesquisa {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #374952;
+  border-radius: 12px;
+  height: 40px;
+}
+
+.input-pesquisa {
+  margin-top: 2px;
+  height: 34px;
+  border-radius: 8px;
+}
+
+.form-pesquisa button {
+  width: 124px;
+  background: #374952;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.form-pesquisa button > img {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}

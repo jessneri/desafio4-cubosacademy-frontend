@@ -23,18 +23,86 @@
 .conta {
   display: flex;
   flex-direction: column;
-  width: 100%;
+}
+
+.principal-cobrancas {
+  max-width: 1200px;
 }
 
 .principal-cobrancas table {
-  width: 960px;
   border-collapse: collapse;
 }
 
 .principal-cobrancas thead {
-  height: 50px;
-  padding: 6px;
   background: #9dbbc3;
   border-radius: 8px;
+}
+
+.principal-cobrancas thead > tr {
+  height: 32px;
   color: white;
+  text-align: left;
+}
+
+.principal-cobrancas thead > tr > td {
+  padding-right: 100px;
+  padding-left: 32px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.principal-cobrancas thead > tr > td:last-child {
+  padding-right: 32px;
+}
+
+.principal-cobrancas tbody {
+  text-align: left;
+}
+.principal-cobrancas tbody > tr {
+  height: 48px;
+  color: #4c4c4c;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.principal-cobrancas tbody > tr > td {
+  padding: 32px;
+}
+
+.principal-cobrancas .pago > img,
+.principal-cobrancas .pendente > img {
+  height: 24px;
+  width: auto;
+  margin: 0;
+}
+.principal-cobrancas .pago > span {
+  font-size: 20px;
+  color: #4ec06e;
+  font-weight: 600;
+  padding-left: 15px;
+}
+.principal-cobrancas .pendente > span {
+  font-size: 20px;
+  color: #5197b5;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.principal-cobrancas .vencido > span {
+  font-size: 20px;
+  color: #ff4d4d;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.principal-cobrancas .imprimir > img {
+  height: 28px;
+  width: auto;
+  margin: 0;
+}
+
+.principal-cobrancas .header-cobrancas {
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: flex-end;
 }

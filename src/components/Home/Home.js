@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Header from "../Header/Header";
 import Logout from "../Logout/Logout";
@@ -14,7 +13,7 @@ export default function Home() {
     <div className="home">
       <Header />
       <div className="corpo">
-        <div className="conta">
+        <div className="centro">
           <SaldoEmConta />
           <div className="principal-home">
             <div className="botoes">

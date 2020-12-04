@@ -1,0 +1,87 @@
+.page-clientes {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+}
+.principal-clientes {
+  max-width: 1250px;
+}
+
+.principal-clientes table {
+  border-collapse: collapse;
+}
+
+.principal-clientes table > thead {
+  background: #9dbbc3;
+}
+.principal-clientes thead > tr {
+  height: 32px;
+  color: white;
+  text-align: left;
+}
+
+.principal-clientes thead > tr > td {
+  padding-right: 100px;
+  padding-left: 32px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.principal-clientes tbody {
+  text-align: left;
+}
+
+.principal-clientes tbody > tr > td {
+  padding: 32px;
+  font-size: 16px;
+}
+
+.principal-clientes .nome {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.principal-clientes .em-dia {
+  color: #4ec06e;
+  font-weight: bold;
+}
+.principal-clientes .inadiplente {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.principal-clientes tbody .imagem {
+  height: 14px;
+  width: auto;
+  margin: 0;
+}
+.principal-clientes tbody button {
+  border: none;
+  background: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.principal-clientes .add-cliente {
+  width: 242px;
+  height: 39px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #da0175;
+  background-color: transparent;
+  border: 1.5px solid #da0175;
+  border-radius: 20px;
+}
+
+.principal-clientes .header-clientes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}

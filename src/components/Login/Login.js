@@ -23,7 +23,6 @@ export default function Login() {
         <form
           className="inputs"
           onSubmit={async (event) => {
-            console.log(email);
             event.preventDefault();
             await login(email, senha);
             history.push("/home");

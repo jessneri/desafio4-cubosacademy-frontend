@@ -1,0 +1,100 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.editar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+}
+
+.editar .corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 72px;
+}
+
+.editar .centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 100px;
+  min-width: 958px;
+}
+
+.editar .editar-cliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 958px;
+}
+
+.editar-cliente h1 {
+  text-align: left;
+}
+
+.editar-cliente form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.editar-cliente form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editar-cliente form input {
+  width: 512px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+}
+
+.editar-cliente .cpf > input,
+.editar-cliente .telefone > input {
+  width: 240px;
+  height: 40px;
+}
+.editar-cliente .cpf > input {
+  margin-right: 25px;
+}
+
+.editar-cliente form .botoes {
+  display: flex;
+  justify-content: center;
+  min-width: 958px;
+}
+
+.botoes .cancelar {
+  width: 226px;
+  height: 39px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #da0175;
+  color: #da0175;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.botoes .editarCliente {
+  width: 226px;
+  height: 39px;
+  background: rgba(218, 1, 117, 0.35);
+  border-radius: 20px;
+  color: #ffffff;
+  margin: 30px;
+  font-weight: bold;
+  border: none;
+}
+
+.botoes .editarCliente:active {
+  background-color: #da0175;
+}

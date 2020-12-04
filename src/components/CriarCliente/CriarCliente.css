@@ -1,0 +1,99 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.novocliente {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+}
+
+.novocliente .corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 72px;
+}
+
+.novocliente .centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 100px;
+  min-width: 958px;
+}
+
+.novocliente .criar-cliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 958px;
+}
+
+.criar-cliente h1 {
+  text-align: left;
+}
+
+.criar-cliente form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.criar-cliente form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.criar-cliente form input {
+  width: 512px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+}
+
+.criar-cliente .cpf > input,
+.criar-cliente .telefone > input {
+  width: 240px;
+  height: 40px;
+}
+.criar-cliente .cpf > input {
+  margin-right: 25px;
+}
+
+.criar-cliente form .botoes {
+  display: flex;
+  justify-content: center;
+  min-width: 958px;
+}
+
+.botoes .cancelar {
+  width: 226px;
+  height: 39px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #da0175;
+  color: #da0175;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.botoes .criarCliente {
+  width: 226px;
+  height: 39px;
+  background: rgba(218, 1, 117, 0.35);
+  border-radius: 20px;
+  color: white;
+  margin: 30px;
+  font-weight: bold;
+  border: none;
+}
+.botoes .criarCliente:enabled {
+  background-color: #da0175;
+}
